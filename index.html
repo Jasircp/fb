@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="fb.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logotxt" href="index.html">facebook</a>
+            </div>
+            <div class="login">
+                <form>
+                    <table class="controls">
+                        <tr>
+                            <td><label class="logintxt">Email or Phone</label></td>
+                            <td><label class="logintxt">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input class="submitbtn" type="submit" value="Log In"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class="fgtpwd" href="">Forgotten Account</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="mainbody">
+            <div class="left">
+                <p class="text1">Facebook helps you connect and share with the<br> people in your life.</p>
+                <img class="image" src="pic.jpg">
+            </div>
+            <div class="right">
+                <h1 class="signup">Sign Up</h1>
+                <p class="para">It's free and always will be.</p>
+                <form id="signupform">
+                    <div>
+                        <input name="fname" class="details2" type="text" placeholder="First Name">
+                        <input name="lname" class="details2" type="text" placeholder="Last name">
+                    </div>
+                    <input name="mail" class="details" type="text" placeholder="Your Email"><br>
+                    <input name="remail" class="details" type="text" placeholder="Re-Enter Email"><br>
+                    <input name="pwd" class="details" type="text" placeholder="New Password">
+                    <h3 class="bday">Birthday:</h3>
+                    <select class="dob" name="day">
+                        <option value="">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <select class="dob">
+                        <option value="">Month</option>
+                        <option value="jan">January</option>
+                        <option value="feb">February</option>
+                        <option value="mar">march</option>
+                    </select>
+                    <select class="dob">
+                        <option value="">Year</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                    </select>
+                    <br>
+                    <input name="sex" class="sex" type="radio" name="Sex">
+                    <label>Male</label>
+                    <input name="sex" type="radio" name="Sex">
+                    <label>Female</label>
+                    <p class="disclosure">By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy.<br> You may receive SMS notifications from us and can opt out at any time.</p>
+                <input class="signupbtn" type="submit" value="Sign Up">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
